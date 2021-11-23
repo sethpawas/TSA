@@ -49,7 +49,7 @@ import time
 @st.cache								
 def load_model(input_data):
 
-	pickle_in = open(r'D:\Users\pawass\Documents\TSA\Champ_models_version1\HF_py_1011.pkl', 'rb') 
+	pickle_in = open(r'https://github.com/sailakshmian/TSA/blob/main/HF_py_1011.pkl', 'rb') 
 	xgb = pickle.load(pickle_in)
 	pickle_in.close()
 

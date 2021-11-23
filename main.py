@@ -1,8 +1,8 @@
-!pip install streamlit
-!pip install pickle5
-!pip install xgboost
-!pip install pandas 
-!pip install numpy 
+pip install streamlit
+pip install pickle5
+pip install xgboost
+pip install pandas 
+pip install numpy 
 
 import streamlit as st 
 import pickle

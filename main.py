@@ -1,9 +1,14 @@
+!pip install streamlit
+!pip install pickle5
+!pip install xgboost
+!pip install pandas 
+!pip install numpy 
+
 import streamlit as st 
 import pickle
 import pandas as pd
 import numpy as np
 from xgboost.sklearn import XGBRegressor
-from sklearn.linear_model import LinearRegression
 
 st.set_page_config( 
     layout='wide')

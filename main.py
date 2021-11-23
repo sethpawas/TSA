@@ -1,6 +1,5 @@
 import streamlit as st 
-import pickle 
-import matplotlib.pyplot as plt
+import pickle
 from sklearn import datasets
 from sklearn.model_selection import train_test_split
 

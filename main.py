@@ -59,7 +59,7 @@ def load_model(input_data):
 	return pred
 
 def main():
-	TSA_data = pd.read_csv(r"D:\Users\pawass\Documents\TSA\Champ_models_version1\TSA_TS7.csv")
+	TSA_data = pd.read_csv(r"https://github.com/sailakshmian/TSA/blob/main/TSA_TS7.csv")
 
 	list_24 = ['Release_Dose_Calc_mg_m' ,'HEADBOX_PRES_psig' ,'Steam_Box_Pressure_PSIG' ,'PM15_Winder_Speed_FPM' ,'Refiner_1_HPD_T' ,'UHLEBOX1_VAC_Inhg'
 		,'Hi_Bright_PM15_Ratio' ,'EosYMoiPv_pct' ,'Coating_Dose_Calc_mg_m' ,'Refiner_3_HP_Control' ,'Metso_Rush_Drag_to_DV' ,'EUC_PM15_Ratio' 
